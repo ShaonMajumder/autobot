@@ -1,7 +1,7 @@
-run: Growth Hack Test
+run: Authoring Automation 1
 	task: 116
 		name: Github Login
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
@@ -10,7 +10,7 @@ run: Growth Hack Test
 		<<<
 	task: 117
 		name: Linked Login
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
@@ -19,7 +19,7 @@ run: Growth Hack Test
 		<<<
 	task: 118
 		name: twitter Login
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
@@ -28,7 +28,7 @@ run: Growth Hack Test
 		<<<
 	function: 116
 		name: Github Function
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
@@ -37,7 +37,7 @@ run: Growth Hack Test
 		<<<
 	function: 117
 		name: Linked Function
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
@@ -46,7 +46,7 @@ run: Growth Hack Test
 		<<<
 	function: 118
 		name: twitter Function
-		sequence: >>>
+		sequence:>>>
 		visit('https://github.com/')
 		> xpath(//a[@href="/login"]).click()
 		> xpath(//input[@type="text" and @name="login"]).type(example@gmail.com)
