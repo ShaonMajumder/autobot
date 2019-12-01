@@ -3,7 +3,7 @@ Author: Shaon Majumder
 
 ## Utilities
 ## Installation
-	pip install autobot
+	pip install unibot
 
 ## Function Usages
 Function Usages End

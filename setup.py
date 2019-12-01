@@ -8,15 +8,15 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-  name = 'autobot',
-  packages = ['autobot'],
-  version = '0.0.0.2.1',
+  name = 'unibot',
+  packages = ['unibot'],
+  version = '0.0.0.3.1',
   long_description=long_description,
   long_description_content_type='text/markdown',
   author = 'Shaon Majumder',
   author_email = 'smazoomder@gmail.com',
-  url = 'https://github.com/ShaonMajumder/autobot',
-  download_url = 'https://github.com/ShaonMajumder/autobot/archive/0.0.0.2.1.tar.gz',
+  url = 'https://github.com/ShaonMajumder/unibot',
+  download_url = 'https://github.com/ShaonMajumder/unibot/archive/0.0.0.3.1.tar.gz',
   keywords = ['shaon', 'utility', 'statistics'], 
   classifiers = [],
 )
